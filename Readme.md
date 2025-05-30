@@ -67,3 +67,33 @@ Install the required Python packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+
+
+## ⚙️ Usage
+
+### 1: Scrape categories from Fab.com
+
+```bash
+python 01_Scrape_Categories.py
+```
+Fetches main categories and subcategories from Fab.com and saves them as JSON (data/categories.json).
+
+
+### 2: Scrape product data using category info
+
+```bash
+python 02_ScrapeProductss.py
+```
+Uses the saved categories to scrape product details from Fab.com APIs and saves raw data as CSV
+
+
+### 3: Clean and normalize scraped product data
+
+```
+Bash
+python 03_Clean_Data.py
+```
+processes the raw scraped CSV data, cleans and formats fields, generates unique IDs, and normalizes multi-value fields (tags, supported engine versions, platforms).
