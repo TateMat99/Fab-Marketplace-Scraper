@@ -36,7 +36,7 @@ This project scrapes product data from the Fab.com marketplace, cleans and norma
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fab-marketplace-scraper.git
+git clone https://github.com/TateMat99/Fab-Marketplace-Scraper.git
 cd fab-marketplace-scraper
 ```
 
